@@ -1,3 +1,11 @@
-import placeholder from 'images/cube.png';
+import 'utils/polyfill';
+import 'utils/scroll';
 
-console.log(placeholder);
+class App {
+  constructor() {
+    this.url = window.location.pathname;
+  }
+}
+
+// eslint-disable-next-line no-new
+new App();
